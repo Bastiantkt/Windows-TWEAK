@@ -1,0 +1,7 @@
+TASK.bat : 
+
+C:\
+
+TASK.vbs :
+
+%appdata%\Microsoft\Windows\Start Menu\Programs\Startup

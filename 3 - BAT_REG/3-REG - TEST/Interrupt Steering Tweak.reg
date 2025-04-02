@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Enable Interrupt Steering
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"InterruptSteeringMode"=dword:00000001
+
+; Set Interrupt Steering to Processor 1
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"InterruptSteeringTargetProc"=dword:00000001
